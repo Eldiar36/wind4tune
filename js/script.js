@@ -1,14 +1,11 @@
-
-/*$('.white-popup-block').magnificPopup({
-    type: 'inline',
-    removalDelay: 500,
-    callbacks: {
-        beforeOpen: function () {
-            this.st.mainClass = this.st.el.attr('data-effect');
-        }
-    },
-    midClick: true
-});*/
+$('.burger-menu_button').on('click',function () {
+    $('.burger-menu').toggleClass('burger-menu_active')
+    $('.burger-menu_nav').toggleClass('burger-menu_active')
+})
+$('.burger-menu_link').on('click',function () {
+    $('.burger-menu').removeClass('burger-menu_active')
+    $('.burger-menu_nav').removeClass('burger-menu_active')
+})
 $(document).ready(function () {
     setTimeout(function() {
         if ($('#popup').length) {
