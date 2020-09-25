@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw==" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="wrapper">
+        <a href="index.html" class="logo">
+            <img src="images/Logo.svg" alt="">
+        </a>
+        <div class="title">
+            <p>Live translation from Helsinki, Finland</p>
+            <span>by Michael Ottawa</span>
+        </div>
+        <div class="btn-group">
+            <a href="soon.html" class="button d-flex">
+                <img src="images/chat.svg" alt="">
+                <p>Chat</p>
+            </a>
+            <a href="fullscreen.html" class="button d-flex">
+                <img src="images/full.svg" alt="">
+                <p>Full screen</p>
+            </a>
+        </div>
+        <div class="user">
+            <a href="#">
+                <p>Gwen Lambert</p>
+                <img src="images/user%20avatar.png" alt="">
+            </a>
+        </div>
+    </div>
+</header>
+<main id="soon-page">
+    <div class="grid">
+        <div class="content-wrapper">
+            <div id="content" class="d-flex">
+                <div class="status-box">
+                    <div class="status d-flex">
+                        <img src="images/offline.svg" alt="">
+                        <span>offline</span>
+                    </div>
+                    <div class="time">
+                        starts  in 5 min
+                    </div>
+                </div>
+                <div class="soon-box">
+                    <img src="images/placeholder%20image.svg" alt="">
+                    <p>Live translation will start soon</p>
+                </div>
+            </div>
+        </div>
+        <div class="comments-bar">
+            <div class="chat-header-box">
+                <div class="chat-header">
+                    <h2 class="title">
+                        Comments
+                    </h2>
+                    <div class="number-watcher">
+                        <span>5 </span>
+                        people watching
+                    </div>
+                    <img src="images/x.svg" alt="">
+                </div>
+                <div class="chat-status">
+                    <p class="title">
+                        There are no comments to show.
+                    </p>
+                </div>
+            </div>
+            <div class="chat">
+                <form action="">
+                    <textarea name="text" id="comment" placeholder="Type your question here"></textarea>
+                    <button class="like-button"><a href="#">
+                        <img src="images/like.svg" alt="">
+                    </a></button>
+                </form>
+            </div>
+        </div>
+    </div>
+</main>
+<footer>
+
+</footer>
+<div id="popup" class="col-11 m-auto col-md-9 col-lg-4 white-popup-block mfp-hide">
+    <div class="section-title">Welcome to Wind4Tune!</div>
+    <p class="section-subtitle">
+        Create an account to be able to ask questions
+    </p>
+    <form class="js-main-form">
+        <label for="name" class="full_name">Full name</label>
+        <input type="text" id="name" class="input-form" >
+        <div class="fl_upld">
+            <label><input id="fl_inp" type="file" name="file">
+                <img src="images/icon.svg" alt="">
+            </label>
+            <div id="fl_nm">Upload a photo</div>
+        </div>
+        <button class="button">Submit</button>
+    </form>
+    <button title="Close (Esc)" type="button" class="mfp-close">×</button>
+    <div class="after"></div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js" integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w==" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
