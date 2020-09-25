@@ -111,6 +111,8 @@ main {
     z-index: 99;
 }
 .burger-menu_overlay {
+
+    
     display: none;
     position: fixed;
     top: 0;
