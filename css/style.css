@@ -329,6 +329,7 @@ header .wrapper  .user a  p {
     overflow-y: scroll;
     height: 67vh;
 }
+.chat-wrapper::-webkit-scrollbar-corner { background-color: #999;}
 .chat .item {
     display: flex;
     padding: 16px 8px 16px 12px;
@@ -444,7 +445,7 @@ header .wrapper  .user a  p {
     background: #2C303D;
     display: flex;
     align-items: center;
-
+    position: relative;
     flex-direction: column;
     border: 1px solid #FAFBFF;
     box-sizing: border-box;
