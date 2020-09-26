@@ -439,18 +439,20 @@ header .wrapper  .user a  p {
     text-align: center;
 }
 #popup {
+    position: relative;
     padding: 18px 0;
     width: 480px;
     height: 404px;
     background: #2C303D;
     display: flex;
     align-items: center;
-    position: relative;
+
     flex-direction: column;
     border: 1px solid #FAFBFF;
     box-sizing: border-box;
     border-radius: 5px;
 }
+
  #popup .section-title {
     font-weight: bold;
     font-size: 24px;
