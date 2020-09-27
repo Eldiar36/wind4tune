@@ -134,10 +134,17 @@
         align-items: flex-start;
     }
     #content .content-footer {
-        flex-direction: column;
+        flex-direction: row;
         align-items: flex-start;
         position: absolute;
-        padding-bottom: 25%;
+        padding-bottom: 22px;
+    }
+    .last-comment {
+        right: 0;
+        left: 0;
+        margin: auto;
+        top: 0;
+        width: 400px;
     }
     .content-footer .likes{
         position: absolute;
@@ -146,12 +153,6 @@
     }
     .content-footer .likes img {
         width: 60px;
-    }
-    .last-comment {
-        right: 0;
-        left: 0;
-        top: 60px;
-        width: 400px;
     }
     .content-footer .likes img {
         width: 45px;
@@ -202,8 +203,9 @@
         right: 8px;
     }
     #fullscreen .last-comment {
-
-        margin-top: 0;
+        margin-top: 20px;
+        width: 60%;
+        left: 40px;
     }
     #fullscreen .content-footer .comments .item {
         margin-bottom: 10px;
@@ -219,6 +221,7 @@
         width: 35px;
     }
 
+
     /*full.html end*/
 }
 @media (max-width: 600px) {
@@ -228,10 +231,22 @@
     #content .content-footer .user-image  {
         display: none;
     }
+    #content .content-footer {
+        flex-direction: row;
+        align-items: flex-start;
+        position: absolute;
+        padding-bottom: 26%;
+    }
     .last-comment {
-        right: 0;
         left: 0;
+        right: 100%;
+        margin: auto;
         top: 50px;
+    }
+    #fullscreen .last-comment {
+        margin-top: 20px;
+        width: 60%;
+        left: 8px;
     }
 }
 @media (max-width: 480px) {
@@ -271,11 +286,7 @@
         left: 5px;
         top: 5px;
     }
-    .last-comment {
-        right: 0;
-        left: 0;
-        top: 30px;
-    }
+
     #content .content-footer {
         position: absolute;
         left: 5px;
@@ -287,14 +298,12 @@
         right: 12px;
         bottom: 0;
     }
-
     .last-comment {
-        right: 0;
+        right: 100%;
         left: 0;
         bottom: 0;
-        top: 20px;
+        top: 33px;
         width: 87%;
-
     }
 
 
