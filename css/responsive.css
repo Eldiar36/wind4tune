@@ -101,6 +101,14 @@
     .chat textarea::placeholder{
         transform: translateY(150%);
     }
+    #soon-page #content .soon-box {
+        margin: 50px auto 0 auto;
+        text-align: center;
+    }
+    #soon-page #content .soon-box img {
+        width: 150px;
+        height: 130px;
+    }
     /*soon.html end*/
 
     /*full.html start*/
@@ -156,13 +164,14 @@
     /*soon/html styles start*/
 
     #soon-page #content .soon-box {
-        margin: 120px auto 0 auto;
+        margin: 70px auto 0 auto;
         text-align: center;
     }
     #soon-page #content .soon-box img {
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 130px;
     }
+
     #soon-page #content .soon-box p {
         font-size: 22px;
         line-height: 7px;
