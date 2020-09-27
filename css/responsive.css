@@ -386,6 +386,9 @@
         bottom: 16px;
         padding-bottom: 40%;
     }
+    .last-comment {
+        top: 35px;
+    }
 }
 @media(max-width: 320px) {
     /*soon.html start*/
@@ -401,6 +404,19 @@
         display: flex;
         align-items: center;
         margin-bottom: 15px;
+    }
+    .last-comment{
+        padding: 7px;
+    }
+    .last-comment .info .time {
+        font-size: 11px;
+    }
+    .last-comment .info .name {
+        font-weight: bold;
+        font-size: 13px;
+    }
+    .last-comment .info .comment {
+        font-size: 13px;
     }
     /*soon.html end*/
 }
